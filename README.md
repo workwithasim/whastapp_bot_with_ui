@@ -87,7 +87,7 @@ PORT=3000
 PREFIX=.
 
 # Your primary WhatsApp number with country code (no + or spaces)
-OWNER_NUMBER=923324400131
+OWNER_NUMBER=923320000000
 
 # Optional: OpenAI API Key for the .ai command
 OPENAI_API_KEY=your_openai_api_key_here
@@ -159,7 +159,7 @@ services:
     environment:
       - PORT=3000
       - PREFIX=.
-      - OWNER_NUMBER=923324400131
+      - OWNER_NUMBER=923320000000
       - OPENAI_API_KEY=
     volumes:
       - /home/YOUR_USERNAME/whatsapp-bot/auth:/app/auth
@@ -357,7 +357,7 @@ Your dashboard is now live and secure at:
 
 ### 1. Connecting the First Account
 1. Open the dashboard at `http://localhost:3000`.
-2. Enter your phone number with country code (e.g., `923324400131`).
+2. Enter your phone number with country code (e.g., `923320000000`).
 3. Click **"Get 8-Digit Pairing Code"** (or click **"Scan with QR Code"**).
 4. On your phone: Open **WhatsApp → Linked Devices → Link a Device → Link with phone number instead**.
 5. Type the 8-digit code shown on screen.
@@ -379,7 +379,7 @@ Your dashboard is now live and secure at:
 ## ❓ Troubleshooting & FAQs
 
 ### Q1: Pairing Code says "Timeout" or does not show on screen
-- Make sure you entered the phone number with the full country code and without leading zeroes or `+` (e.g. `923324400131`, NOT `03324400131`).
+- Make sure you entered the phone number with the full country code and without leading zeroes or `+` (e.g. `923320000000`, NOT `03320000000`).
 - WhatsApp's servers occasionally throttle pairing code requests. If it fails, click **"Scan with QR Code"** as an instant alternative.
 
 ### Q2: FFmpeg Error when generating Stickers (`.sticker`)
